@@ -10,7 +10,7 @@ export default class Search{
             this.recipe = result.data.recipes;
             return this.recipe;
         } catch(error){
-            alert("aldaa garlaa. " + error);
+            console.log("aldaa garlaa. " + error);
         }
     }
 }
